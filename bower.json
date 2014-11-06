@@ -2,7 +2,6 @@
   "name": "bar-gene-slider",
   "private": true,
   "dependencies": {
-    "processing": "~1.4.8",
-    "bootstrap-fileinput": "~2.6.0"
+    "processing": "~1.4.8"
   }
 }
