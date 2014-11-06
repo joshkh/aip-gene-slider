@@ -368,6 +368,12 @@ var appContext = $('[data-app-name="bar-gene-slider"]');
  $('input[name=after]', appContext).on("input", function(){
   $('.afterlabel').text("After (" + this.value + ")");
  });
+
+  $('#fileinput', appContext).on("click", function(e){
+  readFile(e);
+ });
+
+
 var that = this;
 
 var form = $('form[name=workshop-tutorial-query]', appContext);
