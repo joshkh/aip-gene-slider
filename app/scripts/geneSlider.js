@@ -256,7 +256,7 @@ function querystring(key) {
 
 bindjs();
 
-var appContext = $('[data-app-name="workshop-tutorial"]');
+var appContext = $('[data-app-name="bar-gene-slider"]');
 
 // Change labels when the range sliders change.
  $('input[name=before]', appContext).on("input", function(){
